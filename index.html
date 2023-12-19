@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+          <a href="#" class="logo"><img src="./wppusher-logo.png" width="150px" height="25px" srcset=""></a>
+          <ul>
+            <li>
+              <a href="#">Download</a>
+            </li>
+            <li>
+              <a href="#">Learn More</a>
+            </li>
+            <li>
+              <a href="#">Pricing</a>
+            </li>
+            <li>
+              <a href="#">Help</a>
+            </li>
+            <li>
+              <a href="#" style="border: 1px solid #1e1e1e; padding: 7px; border-radius: 5px;">Account</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="screen flex-center">
+            <form class="popup flex p-lg">
+              <div class="close-btn pointer flex-center p-sm">
+                <i class="ai-cross"></i>
+              </div>
+              
+                <!-- CARD FORM -->
+                <div class="flex-fill flex-vertical">
+                  <div class="header flex-between flex-vertical-center">
+                    <div class="flex-vertical-center">
+                      <i class="ai-bitcoin-fill size-xl pr-sm f-main-color"></i>
+                      <span class="title">
+                        <strong> Checkout</strong><span></span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="card-data flex-fill flex-vertical">
+                    
+                    <!-- Card Field -->
+                    <span class="title" style="padding-bottom: 10px;">
+                        <i class="fa-solid fa-1"></i>
+                        <strong> Your Basic Information</strong><span></span>
+                      </span>
+
+                    <!-- Expiry Date -->
+                    <div class="flex-between">
+                      <div class="card-property-title">
+                        <strong>First Name</strong>
+                        
+                      </div>
+                      <div class="card-property-value flex-vertical-center">
+                       
+                        <div class="input-container half-width">
+                          <input class="numbers" data-bound="mm_mock" data-def="00" type="text" min="1" max="12" step="1" placeholder="First Name">  
+                        </div>
+                        <span class="m-md"></span>
+                        <!-- <strong style="margin-top: -70px; margin-left: 10px;">LastName</strong> -->
+                        <div class="input-container half-width">
+                          <input class="numbers" data-bound="yy_mock" data-def="01" type="text" min="23" max="99" step="1" placeholder="Last Name">
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <!-- CCV Number -->
+                    <div class="flex-between">
+                      <div class="card-property-title">
+                        <strong>Email</strong>
+                        
+                      </div>
+                      <div class="card-property-value">
+                        <div class="input-container">
+                          <input id="cvc" type="password">
+                          <i id="cvc_toggler" data-target="cvc" class="ai-eye-open pointer"></i>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <!-- Name -->
+                    <div class="flex-vertical-center">
+                        <i class="ai-bitcoin-fill size-xl pr-sm f-main-color"></i>
+                        <span class="title" style="margin-left: -15px;">
+                          <i class="fa-solid fa-2"></i>
+                          <strong>Your Payment Information</strong><span></span>
+                        </span>
+                      </div>
+                    <div class="flex-between">
+                      <div class="card-property-title">
+                        <strong>Credit Card</strong>
+                        <!-- <span>Enter cardholder's name</span> -->
+                      </div>
+                      <div class="card-property-value">
+                        <div class="input-container">
+                          <input id="name" data-bound="name_mock" data-def="Mr. Cardholder" type="text" class="uppercase" placeholder="Card Number">
+                          <i class="ai-person"></i>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    
+                  </div>
+                  <div class="action flex-center">
+                    <button type="submit" class="b-main-color pointer">Buy WP Pusher</button>
+                  </div>
+                  <center><div class="help" style="color: #646E7A; top: 10px; position: relative;"><span style="font-weight: bolder;">Need help ?</span> Don't Hesitate to contact support</div></center>
+                </div>
+              
+                <!-- SIDEBAR -->
+                <div class="sidebar flex-vertical">
+                  <div>
+                  
+                  </div>
+                  <div class="purchase-section flex-fill flex-vertical">
+                    <div class="free"><h1 style="font-size: 16px;">Freelancer</h1></div>
+                    <div class="price" style="top: 20px; position: absolute;"><h1>$99</h1></div>
+                    <div class="auto" style="top: 35px; position: relative; width: 135px;">Automatic renews after 1 year</div>
+                    
+                   <div style="top: 60px; position: relative; list-style: none;" class="list">
+                    <li><i class="fa-solid fa-circle-check" style="background-color: none;"></i> use on 5 clients</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Private Repositories</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Fail support</li>
+                   </div>
+
+                   <div class="need" style="position: relative; top: 71px;">Need 20 client sides ?</div>
+                   
+                   <div class="need" style="position: relative; top: 86px;">Switch to an Agency</div>
+
+                   <div class="separation-line" style="position: relative; top: 105px;"></div>
+
+                   <div class="ftp" style="position: relative; top: 120px; font-size: 12px;">FTP is horrible to deal with. WP Pusher solves that issue, and the customer support is awesome!</div>
+
+                   <div class="Kirk" style="position: relative; top: 150px;"><img src="./red-circle-icon-1.png" width="20px" height="20px" alt="" srcset="">Kirk bird</div>
+                  </div>
+                  <div class="separation-line"></div>
+                  <!-- <div class="total-section flex-between flex-vertical-center">
+                    <div class="flex-fill flex-vertical">
+                      <div class="total-label f-secondary-color">You have to Pay</div>
+                      <div>
+                        <strong>549</strong>
+                        <small>.99 <span class="f-secondary-color">USD</span></small>
+                      </div>
+                    </div>
+                    <i class="ai-coin size-lg"></i>
+                  </div> -->
+                </div>
+            </d>
+          </div>
+          
+      </div>
+      <script src="./script.js"></script>
+</body>
+</html>
